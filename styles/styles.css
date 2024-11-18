@@ -21,25 +21,46 @@
   /* flex-direction: row; */
 }
 
+.divtext {
+  /* color: #ffffff; */
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .poto1 {
   width: 100%;
   height: 606px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.pototext {
-  /* color: #ffffff; */
+.pototext1 {
   display: flex;
   font-size: 80px;
   font-weight: 700;
   font-family: roboto;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
 }
 .pototext2 {
   display: flex;
   font-size: 19px;
   font-weight: 400;
   font-family: roboto;
+  /* display: flex;
+  justify-content: center; */
 }
-.divtext {
-  flex-direction: column;
-  justify-content: center;
+.barati {
+  width: 286px;
+  height: 312px;
+}
+
+.baratistexti {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: rooto;
 }
