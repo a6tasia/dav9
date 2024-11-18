@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexcontainer {
+  width: 552px;
+  display: flex;
+  justify-content: space-between;
+}
+.headertext {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: roboto;
+  color: #636060;
+  display: flex;
+  gap: 50px;
+  /* flex-direction: row; */
+}
+
+.poto1 {
+  width: 100%;
+  height: 606px;
+  display: flex;
+}
+.pototext {
+  /* color: #ffffff; */
+  display: flex;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: roboto;
+}
+.pototext2 {
+  display: flex;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: roboto;
+}
+.divtext {
+  flex-direction: column;
+  justify-content: center;
+}
